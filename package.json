@@ -1,0 +1,27 @@
+{
+  "name": "node-with-mongo",
+  "version": "1.0.0",
+  "description": "first node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanseer85/node-with-mongo.git"
+  },
+  "keywords": [
+    "mongo",
+    "node",
+    "express"
+  ],
+  "author": "Tanseer Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tanseer85/node-with-mongo/issues"
+  },
+  "homepage": "https://github.com/Tanseer85/node-with-mongo#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
