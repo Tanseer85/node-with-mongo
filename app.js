@@ -3,6 +3,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import logger from 'morgan';
+import mainRoutes from './server/routes/main';
 // set up dependencies
 const app = express();
 app.use(bodyParser.json());
@@ -24,6 +25,8 @@ app.get('/', (req, res) => {
     message: 'Welcome to Project Support',
   });
 });
+// set up route
+app.use('/api/', mainRoutes);
 app.listen(port, () => {
   console.log(`Our server is running on port ${port}`);
 });
